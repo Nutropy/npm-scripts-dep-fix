@@ -1,0 +1,22 @@
+{
+	"name": "npm-scripts-dep-fix",
+	"version": "0.0.1",
+	"description": "adds the imports from npmscripts.config.js's bundler.config.imports to the generated package.json.",
+	"main": "src/index.js",
+	"bin": {
+		"addBundlerImports": "./bin/addBundlerImports.js"
+	},
+	"files": [
+		"bin",
+		"src"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "LGPL-2.1-or-later",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Nutropy/npm-scripts-dep-fix.git"
+	},
+	"private": false
+}
